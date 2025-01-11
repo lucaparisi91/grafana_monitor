@@ -11,5 +11,5 @@ podman build -t grafana .
 
 ## Running the container
 ```bash
-podman run -d grafana .
+podman run -p 3000:3000 -d grafana .
 ```
